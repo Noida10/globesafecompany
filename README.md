@@ -1,6 +1,6 @@
-# Globe Safe Company Website
+# BBB Website
 
-A modern, professional website for Globe Safe Company - a leading manufacturer and supplier of safety lockers, security safes, and vaults based in Ghaziabad, India.
+A modern, professional website for BBB - a leading manufacturer and supplier of safety lockers, security safes, and vaults based in Ghaziabad, India.
 
 ## 🌐 Live Demo
 
@@ -34,7 +34,7 @@ Visit: http://localhost:3002
 
 1. Clone the repository:
 ```bash
-cd /Users/param/projects/globesafecompany
+cd /Users/param/projects/bbb
 ```
 
 2. Install dependencies:
@@ -74,7 +74,7 @@ npx vercel
 
 ## 📱 Company Information
 
-**Globe Safe Company**
+**BBB**
 - **Established**: 2014
 - **Location**: Near SBI, Shamshad Road, Bhojpuri, Pilkhuwa, Ghaziabad, UP - 245304
 - **Phone**: +91-8755309808
@@ -83,7 +83,7 @@ npx vercel
 ## 🔧 Project Structure
 
 ```
-globesafecompany/
+bbb/
 ├── app/                    # Next.js app directory
 │   ├── layout.tsx         # Root layout
 │   ├── page.tsx           # Homepage
@@ -148,13 +148,13 @@ To add new pages, create new directories in `/app`
    Add these in Vercel Dashboard > Settings > Environment Variables:
    ```
    NEXT_PUBLIC_SITE_URL=https://your-domain.vercel.app
-   NEXT_PUBLIC_CONTACT_EMAIL=info@globesafecompany.in
+   NEXT_PUBLIC_CONTACT_EMAIL=info@bbb.in
    NEXT_PUBLIC_CONTACT_PHONE=+918755309808
    ```
 
 4. **Domain Configuration**
    - Go to Settings > Domains
-   - Add your custom domain (e.g., globesafecompany.com)
+   - Add your custom domain (e.g., bbb.com)
    - Follow Vercel's DNS configuration instructions
 
 ### Post-Deployment
@@ -181,8 +181,8 @@ To add new pages, create new directories in `/app`
 
 ## 📄 License
 
-© 2024 Globe Safe Company. All rights reserved.
+© 2024 BBB. All rights reserved.
 
 ---
 
-**Developed with ❤️ for Globe Safe Company**
+**Developed with ❤️ for BBB**
