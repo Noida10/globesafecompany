@@ -1,0 +1,32 @@
+{
+  "name": "globesafecompany",
+  "version": "1.0.0",
+  "description": "Globe Safe Company - Premium Security Solutions Since 2014",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "analyze": "ANALYZE=true next build",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "clean": "rm -rf .next out node_modules"
+  },
+  "keywords": ["security", "safes", "lockers", "ghaziabad", "india"],
+  "author": "Globe Safe Company",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.23",
+    "next": "^16.1.1",
+    "postcss": "^8.5.6",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3"
+  }
+}
