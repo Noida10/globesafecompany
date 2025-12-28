@@ -118,23 +118,23 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Our Products</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/products/safety-lockers" className="text-gray-400 hover:text-white transition-colors">
-                  Safety Lockers
+                <Link href="/products" className="text-gray-400 hover:text-white transition-colors">
+                  All Products
                 </Link>
               </li>
               <li>
-                <Link href="/products/security-safes" className="text-gray-400 hover:text-white transition-colors">
-                  Security Safes
+                <Link href="/products/double-door-safety-locker" className="text-gray-400 hover:text-white transition-colors">
+                  Double Door Lockers
                 </Link>
               </li>
               <li>
-                <Link href="/products/vaults" className="text-gray-400 hover:text-white transition-colors">
-                  Vaults
+                <Link href="/products/electronic-locker-safe" className="text-gray-400 hover:text-white transition-colors">
+                  Electronic Safes
                 </Link>
               </li>
               <li>
-                <Link href="/products/strong-room-doors" className="text-gray-400 hover:text-white transition-colors">
-                  Strong Room Doors
+                <Link href="/products/jewellery-locker" className="text-gray-400 hover:text-white transition-colors">
+                  Jewellery Lockers
                 </Link>
               </li>
             </ul>
@@ -175,13 +175,8 @@ const Footer = () => {
             <p className="text-gray-400 text-sm">
               © {currentYear} Globe Safe Company. All rights reserved.
             </p>
-            <div className="flex space-x-6">
-              <Link href="/privacy-policy" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Privacy Policy
-              </Link>
-              <Link href="/terms-conditions" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Terms & Conditions
-              </Link>
+            <div className="text-gray-400 text-sm">
+              Trusted Security Solutions Since 2014
             </div>
           </div>
         </div>
